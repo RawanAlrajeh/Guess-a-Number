@@ -66,7 +66,6 @@ export default function StartGame(props) {
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.screen}>
-        {/* <Text style={styles.title}>Strart New Geme</Text> */}
         <Card style={styles.inputContainer}>
           <Text>Select a Number </Text>
           <Input
